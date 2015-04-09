@@ -66,6 +66,7 @@ public class ColorMixer : MonoBehaviour {
 					if( itemsMixed == 0 )
 					{
 						currentColor = lastClickedColor;
+						currentColor.a = 1;
 						itemsMixed++;
 					}
 					else
